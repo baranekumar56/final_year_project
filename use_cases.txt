@@ -1,0 +1,23 @@
+GPU-accelerated dataframe analytics
+
+Operations: group-bys, joins, filters, window functions on big tabular data (like cuDF/pandas but distributed).​
+
+Scenario: log analytics, clickstream analysis, time-series aggregation over millions of rows.
+
+Real-time or near real-time analytics
+
+Perform streaming aggregations (e.g., rolling fraud scores, anomaly detection) on batches of events coming in, using GPUs to keep latency low.​
+
+You can demonstrate low-latency processing vs a CPU-only baseline.
+
+Classical ML on big data
+
+Distributed GPU-accelerated training or inference for tree-based models or linear models (not just deep learning), similar to RAPIDS cuML or Spark + GPU accelerators.​
+
+Example: large-scale clustering, regression, or classification on tens of millions of rows.
+
+Simulation / scientific workloads
+
+GPU-accelerated Monte Carlo simulations or numerical models distributed across nodes, where each worker GPU runs many parallel trials.​
+
+Easy to parallelize and measure speedup vs CPU.
